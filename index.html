@@ -5,17 +5,17 @@
     <style>
         html {
             width: 100%;
-            font-family: 'IBM Plex Serif', serif;
+            font-family: "Open Sans", sans-serif;
 
         }
 
         body {
-            width: 95%;
+            width: 85%;
             margin: auto;
         }
 
-        .fs18 {
-            font-size: 18px;
+        .projects {
+            font: 300 20px/30px 'Open Sans', sans-serif;
         }
 
         .name {
@@ -47,6 +47,28 @@
         .lh35 {
             line-height: 35px;
         }
+
+        .projectIntro {
+            font-style: italic;
+        }
+
+        .projectDescription {
+            width: 69%;
+            display: inline-block;
+            padding: 15px;  
+        }
+
+        .toolsTitle {
+            font: 400 19px/24px 'Open Sans', sans-serif;
+        }
+
+        .projectTools {
+            width: 30%;
+            display: inline-block;
+            background-color: #f5f5f5;
+            padding: 15px;
+            margin: 15px;
+        }
     </style>
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
 
@@ -67,9 +89,9 @@
         <div class='bold underline'>Qualifications</div>
         <div class='flex'>
             <div class='flex column lh35'>
-                <span>&#9679; &nbsp; &nbsp;Bachelor of Engineering (2009-2013)</span>
-                <span>&#9679; &nbsp; &nbsp;Class 12th (2009)</span>
-                <span>&#9679; &nbsp; &nbsp;Class 10th (2007)</span>
+                <span>&#183;Bachelor of Engineering (2009-2013)</span>
+                <span>&#183;Class 12th (2009)</span>
+                <span>&#183;Class 10th (2007)</span>
             </div>
             <div class='flex column lh35'>
                 <span>University of Pune</span>
@@ -87,8 +109,8 @@
         <div class='bold underline'>Work Experience</div>
         <div class='flex'>
             <div class='flex column lh35'>
-                <span>&#9679; Paytm -&nbsp; &nbsp; Senior Software Engineer (Jan 2016 - Present).</span>
-                <span>&#9679; Sapient -&nbsp; &nbsp;Associate Technology L2 (Sep 2013 - Jan 2016).</span>
+                <span>&#183; Paytm -&nbsp; &nbsp; Senior Software Engineer (Jan 2016 - Present).</span>
+                <span>&#183; Sapient -&nbsp; &nbsp;Associate Technology L2 (Sep 2013 - Jan 2016).</span>
             </div>
         </div>
     </div>
@@ -97,23 +119,23 @@
         <div class='flex'>
             <div class='flex column lh35'>
                 <span>
-                    &#9679; &nbsp; &nbsp; Programming Language - Javascript.
+                    &#183; Programming Language - Javascript, Python.
                 </span>
                 <span>
-                    &#9679; &nbsp; &nbsp; Database - MySQL.
+                    &#183; Database - MySQL.
                 </span>
                 <span>
-                    &#9679; &nbsp; &nbsp; Modern Web Libraries/Frameworks - ReactJS, Redux, AngularJS, NodeJS, Electron, Vue.
+                    &#183; Modern Web Libraries/Frameworks - ReactJS, Redux, AngularJS, NodeJS, Electron, Vue.
                 </span>
                 <span>
-                    &#9679; &nbsp; &nbsp; Web Technology Stack - HTTP, WebSockets, assets loading/caching, REST APIs, Browser storages, WebRTC.
+                    &#183; Web Technology Stack - HTTP, WebSockets, assets loading/caching, REST APIs, Browser storages, WebRTC.
                 </span>
                 <span>
-                    &#9679; &nbsp; &nbsp; Web Development Tools - Webpack, Babel, SASS, Eslint, Flow.
+                    &#183; Web Development Tools - Webpack, Babel, SASS, Eslint, Flow.
 
                 </span>
                 <span>
-                    &#9679; &nbsp; &nbsp; Experience with - VCSs, UNIX environment, AWS services.
+                    &#183; Experience with - VCSs, UNIX environment, AWS services.
                 </span>
             </div>
         </div>
@@ -122,38 +144,45 @@
         <div class='bold underline'>Projects</div>
         <div class='flex'>
             <div class='flex column lh35'>
-                <span>
-                    <span class='bold fs18'>POS</span> (https://boxoffice-pos.paytm.com) - An application being used at cinema counters for sale
-                    of movie tickets
-                </span>
-                <span>
-                    &#9679; &nbsp; &nbsp; Took project from scoping requirements to actual launch of the project and beyond.
-                </span>
-                <span>
-                    &#9679; &nbsp; &nbsp; Got opportunity to lead front end team of 5 members.
-                </span>
-                <span>
-                    &#9679; &nbsp; &nbsp; Solved multiple challanges while delivering an application which can run offline completely, while
-                    bookings happening on multiple machines.
-                </span>
-                <span class='bold'>
-                    Web Technologies &nbsp; - &nbsp; &nbsp; ReactJS, Redux, IndexedDB, Service workers, Web sockets, WebRTC, SCSS.
-                </span>
-                <span class='bold'>
-                    Dev tools &nbsp; - &nbsp; &nbsp; Webpack, Babel, ESLint, stylelint, Flow.
-                </span>
+                <div class='flex'>
+                    <div class='projectDescription'>
+                        <span>
+                            <span class='projects'>POS (Point of sale application)</span>
+                        </span>
+                        <div class='projectIntro'>
+                            https://boxoffice-pos.paytm.com - An application being used at cinema counters for sale of movie tickets
+                        </div>
+                        <div>
+                            &#183; Took project from scoping requirements to actual launch of the project and beyond.
+                        </div>
+                        <div>
+                            &#183; Got opportunity to lead front end team of 5 members.
+                        </div>
+                        <div>
+                            &#183; Solved multiple challanges while delivering an application which can run offline completely, while bookings happening
+                            on multiple machines.
+                        </div>
+                    </div>
+                    <div class='projectTools'>
+                        <span class='toolsTitle'>Tools & Technology</span>
+                        <div>ReactJS, Redux, IndexedDB, Service workers, Web sockets, WebRTC, SCSS</div>
+                        <div>Webpack, Babel, ESLint, stylelint, Flow</div>
+                    </div>
+                </div>
                 <span class='mt20'>
-                    <span class='bold fs18'>Box-Office</span> (https://boxoffice.paytm.com) - An inhouse cinema provider of paytm, being used as
-                    cinema back office management tool
+                    <span class='projects'>Box-Office</span>
+                </span>
+                <span class='projectIntro'>https://boxoffice.paytm.com - An inhouse cinema provider of paytm, being used as cinema back office management
+                    tool
                 </span>
                 <span>
-                    &#9679; &nbsp; &nbsp; Worked closely with, and incorporate requirements from PMs, designers and other engineers.
+                    &#183; Worked closely with, and incorporate requirements from PMs, designers and other engineers.
                 </span>
                 <span>
-                    &#9679; &nbsp; &nbsp; Developed rich user experience web application for cinema merchants and operations team.
+                    &#183; Developed rich user experience web application for cinema merchants and operations team.
                 </span>
                 <span>
-                    &#9679; &nbsp; &nbsp; Delivered highly stable multi-functional complex application within limited time.
+                    &#183; Delivered highly stable multi-functional complex application within limited time.
                 </span>
                 <span class='bold'>
                     Web Technologies &nbsp; - &nbsp; &nbsp; ReactJS, AngularJS, SCSS.
@@ -162,18 +191,18 @@
                     Dev tools &nbsp; - &nbsp; &nbsp; Babel, ESLint, stylelint, Grunt.
                 </span>
                 <span class='mt20'>
-                    <span class='bold fs18'>Paytm.com / Paytmmall.com</span> (https://paytm.com, https://paytmmall.com/) - One of the leading e-commerce
-                    site in country
+                    <span class='projects'>Paytm.com / Paytmmall.com</span>
+                </span>
+                <span class='projectIntro'>https://paytm.com, https://paytmmall.com/ - One of the leading e-commerce site in country</span>
+                <span>
+                    &#183; Migrated entire application from AngularJS to ReactJS .
                 </span>
                 <span>
-                    &#9679; &nbsp; &nbsp; Migrated entire application from AngularJS to ReactJS .
+                    &#183; Optimized applications load time from ~10 secs to ~2 secs.
                 </span>
                 <span>
-                    &#9679; &nbsp; &nbsp; Optimized applications load time from ~10 secs to ~2 secs.
-                </span>
-                <span>
-                    &#9679; &nbsp; &nbsp; Developed verticals like hotels, movies etc. while implementing solid coding practices including peer
-                    code reviews, unit testing, while following agile development.
+                    &#183; Developed verticals like hotels, movies etc. while implementing solid coding practices including peer code reviews,
+                    unit testing, while following agile development.
                 </span>
                 <span class='bold'>
                     Web Technologies &nbsp; - &nbsp; &nbsp; ReactJS, Redux, Service workers, SCSS.
@@ -182,26 +211,31 @@
                     Dev tools &nbsp; - &nbsp; &nbsp; Webpack, Babel, ESLint, stylelint, Flow.
                 </span>
                 <span class='mt20'>
-                    <span class='bold fs18'>Other Projects (Sapient)</span> - Other projects done while working with sapient for Royal Bank of Scotland
-                    (RBS)
+                    <span class='projects'>Other Projects (Sapient)</span>
+                </span>
+                <span class='projectIntro'>Other projects done while working with sapient for Royal Bank of Scotland (RBS)</span>
+                <span>
+                    &#183; Responsible for developing UI components of regulatory compliance applications - G&amp;E (Gifts and Entertainment),
+                    OBI(Outside Business Interests), PAD(Personal Account Dealing).
                 </span>
                 <span>
-                    &#9679; &nbsp; &nbsp; Responsible for developing UI components of regulatory compliance applications - G&amp;E (Gifts and
-                    Entertainment), OBI(Outside Business Interests), PAD(Personal Account Dealing).
+                    &#183; Independently developed front end of multiple trading applications under RAD (Rapid Application Development).
                 </span>
                 <span>
-                    &#9679; &nbsp; &nbsp; Independently developed front end of multiple trading applications under RAD (Rapid Application Development).
+                    &#183; Gained valuable technical as well as financial domain knowledge by undergoing GMI training conducted by sapient.
                 </span>
                 <span>
-                    &#9679; &nbsp; &nbsp; Gained valuable technical as well as financial domain knowledge by undergoing GMI training conducted
-                    by sapient.
+                    &#183; Wrote end to end test cases using jasmine and used karma as a test case runner.
                 </span>
                 <span>
-                    &#9679; &nbsp; &nbsp; Wrote end to end test cases using jasmine and used karma as a test case runner.
+                    &#183; Streamlined deployment process by setting up continuous integration tools and various ARM tools.
                 </span>
-                <span>
-                    &#9679; &nbsp; &nbsp; Streamlined deployment process by setting up continuous integration tools and various ARM tools.
-                </span>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
             </div>
         </div>
     </div>
